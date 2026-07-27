@@ -1,0 +1,70 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Visual Studio Code project files
+.vscode/
+.history/
+
+# Package manager files
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+-resources.js
+-resources.g.dart
+
+# Symbol database
+.symbols/
+
+# Android related
+android/**/gradle-wrapper.jar
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/key.properties
+android/app/src/main/res/values/strings.xml
+android/app/src/main/res/values/styles.xml
+
+# iOS/macOS related
+ios/.symlinks/
+ios/Pods/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+macos/Flutter/Generated.xcconfig
+macos/Flutter/flutter_export_environment.sh
+macos/Flutter/ephemeral/
+
+# Windows/Linux related
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# Crashlytics generated file
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+
+# Tooling related
+pubspec.lock
